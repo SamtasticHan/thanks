@@ -49,11 +49,17 @@ overflow-x: auto;
 gap: 10px;
 padding-bottom: 10px;
 }
+
 .gallery-scroll img {
-width: 70%;
-border-radius: 8px;
-flex-shrink: 0;
+  height: 260px;
+  width: auto;
+  max-width: 90%;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: contain;
+  background: #eee;
 }
+
 .closing {
 text-align: center;
 font-size: 14px;
